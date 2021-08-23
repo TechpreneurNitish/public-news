@@ -1,0 +1,58 @@
+.card {
+    padding: 10px;
+    text-align: left;
+}
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 16px;
+    color: #231f20;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.card .cardPrimAct {
+    display: flex;
+    align-items: center;
+}
+
+.card .cardPrimAct .primButton {
+    margin-left: auto;
+}
+
+.card .cardPrimAct .material-icons {
+    color: #a2a2a2;
+}
+
+.card .cardPrimAct > button {
+    width: max-content;
+    min-width: initial;
+}
+
+.card .cardPrimAct > button.active .material-icons {
+    color: #6cc16c;
+}
+
+.card .articleSource a {
+    color: var(--primColor);
+    text-align: left;
+    font-weight: 700;
+    font-size: 13px;
+}
+.card .articleSource h5 {
+    color: #737373;
+    text-align: left;
+    font-weight: 700;
+    font-size: 13px;
+    margin-top: 5px;
+}

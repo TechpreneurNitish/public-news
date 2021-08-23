@@ -1,0 +1,15 @@
+.searchBar {
+    background: #e8e8e8;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.searchBar form,
+.searchBar form input {
+    width: 100%;
+    display: block;
+}
+
+.searchBar form input:focus {
+    box-shadow: none;
+}

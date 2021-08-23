@@ -1,0 +1,7 @@
+header .headerCnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background: rgb(223, 223, 223);
+}

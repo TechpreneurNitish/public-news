@@ -1,0 +1,98 @@
+:root {
+    --fontFamily: 'Mulish';
+    --diplayFont: 'Playfair Display', serif;
+    --primColor: rgb(25, 157, 229);
+    --secColor: rgb(10, 64, 115);
+    --accentColor: rgb(225, 244, 255);
+    --textColor: '#373737';
+    --backgroundColor: rgb(241, 243, 246);
+}
+
+.primButton button {
+    color: #fff;
+    border-radius: 3px;
+    background-color: var(--primColor);
+    border: 1px solid var(--primColor);
+    transition: 200ms all ease-in-out;
+    box-shadow: none;
+}
+
+.primButton button:hover {
+    background-color: var(--primColor);
+    border: 1px solid var(--primColor);
+    color: #fff;
+    opacity: '0.9';
+    box-shadow: none;
+}
+
+.secButton button {
+    color: var(--primColor);
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid var(--primColor);
+    transition: 200ms all ease-in-out;
+    box-shadow: none;
+}
+
+.secButton button:hover {
+    background-color: var(--primColor);
+    border: 1px solid var(--primColor);
+    color: #fff;
+    box-shadow: none;
+}
+
+.primButton button,
+.secButton button,
+.tertButton button {
+    height: 50px;
+}
+
+.primButton.small button,
+.secButton.small button,
+.tertButton.small button {
+    height: 40px;
+    min-width: max-content;
+}
+
+.primButton.large button,
+.secButton.large button,
+.tertButton.large button {
+    height: 60px;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: #fff;
+    background: rgb(25, 157, 229, 15);
+}
+
+::selection {
+    color: #fff;
+    background: rgb(25, 157, 229, 15);
+}
+
+@media (max-width: 500px) {
+    .primButton.small button,
+    .secButton.small button,
+    .tertButton.small button {
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .primButton button,
+    .secButton button,
+    .tertButton button {
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .primButton.large button,
+    .secButton.large button,
+    .tertButton.large button {
+        height: 50px;
+        font-size: 14px;
+    }
+    .home .homeBanner .hbLt .bannerSearch input {
+        height: 50px;
+    }
+}

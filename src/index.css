@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: var(--fontFamily), -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.MuiTooltip-popper .MuiTooltip-tooltip {
+    font-size: 12px;
+    background: #2b2b2be0;
+}
+
+.customInput,
+.customSelect,
+.MuiFormControl-root.customDatepicker,
+.customTextArea {
+    margin-bottom: 30px;
+    /* width: 100%; */
+}
+
+.customTextArea .MuiFormControl-root {
+    width: 100%;
+}
+
+.MuiFormControl-root.customDatepicker {
+    width: 100%;
+}
+
+.customSelect .MuiFormControl-root {
+    width: 100%;
+}
+
+.customInput .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutlin,
+.customSelect .MuiSelect-root.MuiSelect-select.Mui-focused {
+    border-color: var(--secColor);
+}
+
+.customInput .MuiFormLabel-root.Mui-focused,
+.customSelect .MuiFormLabel-root.Mui-focused {
+    color: var(--secColor);
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: var(--secColor) !important;
+    border-width: 1px !important;
+}
+.customInput .MuiFormControl-root.MuiTextField-root,
+.customSelect .MuiFormControl-root.MuiTextField-root {
+    width: 100%;
+    margin: 0;
+    text-align: start;
+}
+
+.MuiInputBase-root,
+.MuiTypography-body1 {
+    font-family: var(--fontFamily) !important;
+}
+
+.cursorDecoy {
+    cursor: pointer;
+}
+
+div:focus,
+button:focus {
+    outline: 0;
+}
